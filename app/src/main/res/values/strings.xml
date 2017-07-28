@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name"><b>KTools AIO</b> (Alpha)</string>
+    <string name="app_by">By NHK</string>
+    <string name="email">noor.hotmail.h.1@gmail.com</string>
+    <string name="email_u"><u>noor.hotmail.h.1@gmail.com</u></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sidebar">Open sidebar</string>
+
+    <string name="MainScreen">Main Screen</string>
+    <string name="Tools">Tools</string>
+    <string name="GeneralTools">General Tools</string>
+    <string name="GeneralToolsSub">General tools that work on all devices and don\'t require root permission. Perhaps may require some of the basic android permissions (such as accessing storage&#8230;)</string>
+    <string name="NavGeneralTools">Navigate to General Tools</string>
+    <string name="RootTools">Root Tools</string>
+    <string name="RootToolsSub">More advanced tools, working only on rooted devices. Require root access permission from the installed su app.</string>
+    <string name="NavRootTools">Navigate to Root Tools</string>
+    <string name="WhatIsRoot">What is root? (More info from wikipedia)</string>
+    <string name="contact_dev">Contact the developer</string>
+    <string name="Communicate">Communicate</string>
+    <string name="Share">Share KTools</string>
+    <string name="Sharing">Sharing&#8230;</string>
+    <string name="restartkt">Restart KTools</string>
+    <string name="Troubleshoot">Troubleshoot</string>
+    <string name="xdaVisit">Visit xda thread</string>
+
+    <string name="title_activity_tools">Tools Activity</string>
+
+</resources>

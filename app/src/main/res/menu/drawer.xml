@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/MainScreen"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/tools"
+            android:title="@string/Tools" />
+    </group>
+
+    <item android:title="@string/Troubleshoot">
+        <menu>
+            <item android:id="@+id/restartkt"
+                android:icon="@drawable/ic_circular_refresh_arrow"
+                android:title="@string/restartkt" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="@string/contact_dev" />
+
+            <item
+                android:id="@+id/nav_xda"
+                android:icon="@drawable/xda"
+                android:title="@string/xdaVisit" />
+        </menu>
+    </item>
+</menu>
