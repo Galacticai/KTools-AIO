@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="xda"
+        android:enabled="true"
+        android:icon="@drawable/xda"
+        android:shortcutShortLabel="@string/enterTools"
+        android:shortcutLongLabel="@string/enterTools"
+        android:shortcutDisabledMessage="@string/enterTools">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nhk.app.ktools"
+            android:targetClass="com.nhk.app.ktools.ToolsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

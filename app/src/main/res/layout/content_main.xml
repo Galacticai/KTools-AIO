@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:visibility="visible"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="tools.app.nhk.com.ktools.MainActivity"
+    tools:context="com.nhk.app.ktools.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <LinearLayout
@@ -63,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:maxWidth="100dp"
             android:text="@string/NavGeneralTools" />
 
         <Space
@@ -121,6 +122,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:maxWidth="100dp"
             android:backgroundTint="@android:color/holo_orange_dark"
             android:text="@string/NavRootTools" />
     </LinearLayout>
@@ -132,7 +134,7 @@
         android:layout_gravity="bottom"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:text="app info at the bottom"
+        android:text="App name, Version: x.x~"
         android:textAlignment="center"
         android:visibility="visible" />
 

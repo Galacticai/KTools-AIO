@@ -7,9 +7,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:visibility="visible"
-    tools:context="tools.app.nhk.com.ktools.ToolsActivity">
+    tools:context="com.nhk.app.ktools.ToolsActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <!--<android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -25,9 +25,7 @@
             android:visibility="visible"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:theme="@style/ToolBarStyle" />
-
-
-    </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.AppBarLayout>-->
 
     <FrameLayout
         android:id="@+id/ToolsL"
@@ -43,8 +41,7 @@
             android:id="@+id/tools_general"
             layout="@layout/tools_general"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="gone" />
+            android:layout_height="match_parent"/>
 
         <include
             android:id="@+id/tools_root"

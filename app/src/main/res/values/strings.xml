@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"><b>KTools AIO</b> (Alpha)</string>
+    <string name="app_name"><b>KTools AIO</b> <i>(Alpha)</i></string>
     <string name="app_by">By NHK</string>
     <string name="email">noor.hotmail.h.1@gmail.com</string>
     <string name="email_u"><u>noor.hotmail.h.1@gmail.com</u></string>
@@ -26,6 +26,6 @@
     <string name="Troubleshoot">Troubleshoot</string>
     <string name="xdaVisit">Visit xda thread</string>
 
-    <string name="title_activity_tools">Tools Activity</string>
+    <string name="enterTools">Enter Tools</string>
 
 </resources>
