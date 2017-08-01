@@ -18,13 +18,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.app.shortcuts" android:resource="@xml/app_shortcuts" />
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/app_shortcuts" />
         </activity>
         <activity
             android:name=".ToolsActivity"
-            android:label="@string/Tools">
-
-        </activity>
+            android:label="@string/Tools"></activity>
+        <activity android:name=".rebooter_r_Activity"></activity>
     </application>
 
 </manifest>

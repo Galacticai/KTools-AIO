@@ -24,28 +24,22 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:theme="@style/ToolBarStyle">
 
-        <TextView
-            android:id="@+id/appTitle"
-            android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/White"
-            android:layout_weight="1"
-            android:text="@string/app_name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-</android.support.v7.widget.Toolbar>
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="56dp">
 
     <include
     android:id="@+id/MainL"
     layout="@layout/content_main" />
-</ScrollView>
-
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -53,10 +47,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:tint="@color/colorAccent"
-        app:backgroundTint="@android:color/white"
+        android:tint="@color/White"
+        app:backgroundTint="@color/colorAccent"
         app:fabSize="normal"
         app:rippleColor="@android:color/holo_green_dark"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/ic_menu_share" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -14,11 +14,14 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.nhk.app.ktools.MainActivity"
     tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="visible">
 
@@ -126,7 +129,7 @@
             android:backgroundTint="@android:color/holo_orange_dark"
             android:text="@string/NavRootTools" />
     </LinearLayout>
-
+</ScrollView>
     <TextView
         android:id="@+id/info_txt"
         android:layout_width="match_parent"
