@@ -34,16 +34,16 @@
     <string name="rebooter_r">Rebooter</string>
     <string name="rebooter_sub_r">Advanced reboot options</string>
     <string name="regular_rebooter_r">Regular Restart</string>
-    <string name="regular_sub_rebooter_r"></string>
+    <string name="regular_sub_rebooter_r">Reboot normally without any additions</string>
     <string name="hot_rebooter_r">Hot reboot</string>
-    <string name="hot_sub_rebooter_r"></string>
+    <string name="hot_sub_rebooter_r">Reboot the system without turning off the phone</string>
     <string name="safe_rebooter_r">Reboot into safe mode</string>
-    <string name="safe_sub_rebooter_r"></string>
+    <string name="safe_sub_rebooter_r">Go into safe mode for troubleshooting (third-party apps are disabled until the next reboot)</string>
     <string name="recovery_rebooter_r">Reboot into recovery</string>
-    <string name="recovery_sub_rebooter_r"></string>
+    <string name="recovery_sub_rebooter_r">Reboot and go to the recovery</string>
     <string name="dl_rebooter_r">Reboot into download mode</string>
-    <string name="dl_sub_rebooter_r"></string>
+    <string name="dl_sub_rebooter_r">Reboot and enter download mode</string>
     <string name="shutdown_rebooter_r">Shutdown</string>
-    <string name="shutdown_sub_rebooter_r"></string>
+    <string name="shutdown_sub_rebooter_r">Normal shutdown</string>
 
 </resources>
